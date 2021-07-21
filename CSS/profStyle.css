@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  color: rgb(60, 60, 60);
+}
+
+h1, h4, p, div, li{
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  vertical-align: baseline;
+}
+
+ul {
+  list-style: none;
+}
+
+div {
+  display: block;
+}
+
+img {
+  margin-right: 4px;
+  margin-top: 3px;
+  width: 19px;
+  height: 19px;
+}
+
+h4 {
+  font-size: 120%;
+
+}
+
+body {
+  margin: 0px;
+  background-color: #f1f2f6;
+}
+
+header {
+  width: 100%;
+  /* background-color: red; */
+  /* border-bottom: 30px solid #036729; */
+}
+
+header > h1 {
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #212529;
+}
+
+.green-line {
+  height: 30px;
+  width: 100%;
+  background-color: #036729;
+}
+
+.main-container {
+  background-color: white;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: solid 1px rgba(60, 60, 60, .25);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.name-container {
+  margin-bottom: 10px;
+}
+
+.name-ruby {
+  font-size: 11px;
+}
+
+.name {
+  font-size: 22px;
+}
+
+.birthday {
+  font-size: 12px;
+}
+
+.sub-title-container {
+  margin-top: 35px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #036729;
+  padding-left: 0;
+  padding-bottom: 8px;
+  display: flex;
+  /* background-color: gray; */
+}
+
+.icon-img {
+
+}
